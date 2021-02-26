@@ -1,4 +1,3 @@
-
 public class Main {
 	public static void main(String[] args) {
 		ShoppingCart cart = new ShoppingCart();
@@ -8,6 +7,5 @@ public class Main {
         cart.printCart();
         cart.addToCart(2, "Pen", 50, 10);
         cart.genBill();
-		System.out.println("1. ");
 	}
 }
